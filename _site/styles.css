@@ -1,0 +1,199 @@
+/* css styles */
+
+
+body {
+max-width: 1200px;
+margin:auto;
+font-family: Arial,sans-serif;
+}
+h1,h2,h3{
+color:#355b7c;
+}
+.navbar{
+font-weight:bold;
+}
+
+/* Stack navbar into two rows */
+.navbar > .container-fluid,
+.navbar > .container {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.navbar {
+  border-bottom: 4px solid #355b7c;
+}
+
+/* Title row */
+.navbar-brand-container {
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 10px 0 5px 0;
+}
+
+/* Logo */
+.navbar-brand img {
+  height: 60px !important;
+  width: auto !important;
+  margin-right: 15px !important;
+}
+
+/* Title */
+.navbar-brand {
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+}
+
+/* Menu row */
+.navbar-nav {
+  width: 100%;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.15rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+
+/* FORCE logo size */
+.navbar-brand img,
+.navbar-logo img,
+img.navbar-logo {
+  height: 110px !important;
+  max-height: 110px !important;
+  width: auto !important;
+}
+
+
+.navbar > .container-fluid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+.navbar-brand-container {
+  display: flex !important;
+  align-items: center !important;
+  width: 100%;
+  position: relative;
+}
+
+/* LOGO stays left */
+.navbar-brand img,
+.navbar-logo img {
+  height: 110px !important;
+  width: auto !important;
+  margin-left: 10px !important;
+}
+
+
+main.content {
+  position: relative;
+}
+
+.home-side-image {
+  position: absolute;
+  left: -260px;   /* adjust */
+  top: 50px;     /* adjust */
+  width: 220px;
+}
+
+.home-side-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+p {
+  line-height: 1.8;
+}
+
+
+
+.contact-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: $cpc-white;
+  border-left: 5px solid $cpc-accent;
+  border-radius: 6px;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
+  text-align: center;
+}
+
+.contact-card h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: $cpc-dark;
+}
+
+.contact-card p {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+.nav-footer {
+  background-color: #355b7c !important;
+  color: white !important;
+
+  width: 100vw !important;
+  max-width: 100vw !important;
+
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+
+  padding: 4px 2px !important;
+}
+
+.nav-footer .nav-footer-left {
+  padding-left: 20px !important;
+}
+
+.nav-footer .nav-footer-right {
+  padding-right: 20px !important;
+}
+
+/* Center content vertically */
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-center,
+.nav-footer .nav-footer-right {
+  font-size: 1.2rem !important;
+  line-height: 1 !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* Remove inherited margins */
+.nav-footer p,
+.nav-footer div,
+.nav-footer a {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Icons */
+.nav-footer .bi,
+.nav-footer svg {
+  font-size: 1.4rem !important;
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+  vertical-align: middle;
+}
+
+.nav-footer-center a {
+  margin: 0 4px;
+}

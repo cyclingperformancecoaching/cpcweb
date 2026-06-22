@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Cycling Performance Coaching"
+
+  navbar:
+    logo: images/CPC New.png
+    search: false
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Coaching
+        href: coaching.qmd
+      - text: Testimonials
+        href: testimonials.qmd
+      - text: Contact
+        href: contact.qmd      
+      
+  page-footer:
+    left: "©2023 by Cycle Performance Coaching."
+    center:
+      - icon: instagram
+        href: https://www.instagram.com/cyclingperformancecoaching_cpc/
+        aria-label: Instagram
+      - icon: facebook
+        href: https://www.facebook.com/samhill0986
+        aria-label: Facebook
+      - icon: strava
+        href: https://www.strava.com/clubs/1238484
+    right: "olistenningcoaching@gmail.com"
+    background: "#355b7c"
+    foreground: "#ffffff"
+    
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+
+editor: source
+
