@@ -1,4 +1,4 @@
-# Cycling Performance Coaching
+# Personalized Coaching
 
 ::: {.home-side-image}
 <img src="images/cpcoli.png" alt="Cycling Performance Coaching"/>
