@@ -243,8 +243,29 @@ main.content {
   }
 }
 
+/* Cam Image */
 
+.testimonials-right-image{
+  float: right;
+  width: 400px;
+  max-width: 500px;
+  margin: -30px 25px 20px 20px;
+}
 
+.testimonials-right-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .testimonials-right-image {
+    float: none;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+}
 
 
 /* CTA BUTTON ROW */
