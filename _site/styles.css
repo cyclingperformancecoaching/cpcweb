@@ -262,7 +262,7 @@ main.content {
   .testimonials-right-image {
     float: none;
     width: 100%;
-    max-width: 300px;
+    max-width: 260px;
     margin: 20px auto;
   }
 }

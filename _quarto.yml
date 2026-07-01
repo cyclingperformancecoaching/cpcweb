@@ -19,6 +19,8 @@ website:
         href: coaching.qmd
       - text: Testimonials
         href: testimonials.qmd
+      - text: Podcast
+        href: podcast.qmd
       - text: Contact
         href: contact.qmd
 

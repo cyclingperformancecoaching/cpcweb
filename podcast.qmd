@@ -1,0 +1,22 @@
+---
+title: "Podcast"
+format: html
+---
+Give our podcast a listen!
+
+Cycling Performance Coaching is a podcast by Australian road cyclists Oli Stenning and Sam Hill. Competing at national and international level, Oli is still racing while Sam has transitioned into coaching and teaching.
+We dive into training, racing, and equipment, sharing real stories from the road and behind the scenes of the sport. From practical coaching insights to honest conversations with guest riders and coaches, this podcast gives you the tools and perspective to improve your performance.
+
+<div style="max-width:700px; margin:30px auto;">
+  <iframe
+    data-testid="embed-iframe"
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/show/1O1LIdfUYAJVR38G1yNHyY?utm_source=generator&theme=0&si=f6d4d2e76c424839"
+    width="100%"
+    height="152"
+    frameborder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
+</div>
