@@ -219,6 +219,25 @@ main.content {
 
 
 
+/* CTA BUTTON ROW */
+
+.btn-cpc {
+  display: inline-block;
+  font-weight: 800;
+  padding: 14px 28px;
+  background: #355b7c;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-cpc:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
 
 
 

@@ -21,4 +21,6 @@ We provide online, daily programs tailored to your goals and your lifestyle (and
 
 Personalized coaching for road, gravel, MTB and triathlon athletes.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Meet the Coaches](coaching.qmd){.btn-cpc-outline} &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Start Coaching](contact.qmd){.btn-cpc}
+::: {.cta-buttons}
+[Enquire About Coaching!](contact.qmd){.btn-cpc}
+:::
