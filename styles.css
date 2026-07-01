@@ -212,7 +212,7 @@ main.content {
 
 
 
-
+/* footer */
 
 .nav-footer {
   background-color: #355b7c !important;
@@ -264,4 +264,52 @@ main.content {
 
 .nav-footer-center a {
   margin: 0 4px;
+}
+
+
+/* ===========================
+   Mobile Footer
+=========================== */
+
+@media (max-width: 768px) {
+
+  .nav-footer {
+    padding: 15px 10px !important;
+  }
+
+  /* Stack the three footer sections */
+  .nav-footer .nav-footer-left,
+  .nav-footer .nav-footer-center,
+  .nav-footer .nav-footer-right {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+
+    padding: 8px 0 !important;
+    margin: 0 !important;
+
+    font-size: 1rem !important;
+  }
+
+  /* Remove desktop spacing */
+  .nav-footer .nav-footer-left {
+    padding-left: 0 !important;
+  }
+
+  .nav-footer .nav-footer-right {
+    padding-right: 0 !important;
+  }
+
+  /* Space between social icons */
+  .nav-footer-center a {
+    margin: 0 8px;
+  }
+
+  /* Slightly smaller icons */
+  .nav-footer .bi,
+  .nav-footer svg {
+    font-size: 1.2rem !important;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+  }
 }
