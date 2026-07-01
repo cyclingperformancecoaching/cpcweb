@@ -86,120 +86,81 @@ img.navbar-logo {
 
 
 /* ===========================
-Mobile Header & Navbar
+   Mobile Header
 =========================== */
 
 @media (max-width: 768px) {
 
-/* Smaller logo */
-
-.navbar-brand img,
-.navbar-logo img,
-img.navbar-logo {
-height: 58px !important;
-max-height: 58px !important;
-width: auto !important;
-margin-left: 0 !important;
-margin-right: 10px !important;
-}
-
-/* Keep logo + title on one line */
-
-.navbar-brand-container {
-display: flex !important;
-flex-direction: row !important;
-justify-content: center !important;
-align-items: center !important;
-width: 100%;
-margin: 10px 0 !important;
-}
-
-/* Auto-size title */
-
-.navbar-brand {
-font-size: clamp(1.2rem, 5vw, 1.9rem) !important;
-font-weight: 700 !important;
-line-height: 1.1;
-white-space: normal !important;
-text-align: center;
-}
-
-/* Mobile menu */
-
-.navbar-nav {
-width: 100%;
-justify-content: center !important;
-}
-.navbar-nav .nav-link {
-font-size: 1rem !important;
-padding: 0.6rem !important;
-}
-
-/* Main content */
-main.content {
-  position: relative;
-}
-
-/* ---------- Mobile title  ---------- */
-@media (max-width: 768px) {
-
-  /* Smaller site title */
-  .navbar-brand {
-    font-size: 1.8rem !important;
-    text-align: center;
+  /* Navbar becomes vertical */
+  .navbar > .container,
+  .navbar > .container-fluid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
-  /* Smaller logo */
+  /* Logo + title */
+  .navbar-brand-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100%;
+    margin: 15px 0 10px 0 !important;
+  }
+
+  /* Logo */
   .navbar-brand img,
   .navbar-logo img,
   img.navbar-logo {
     height: 70px !important;
-    max-height: 70px !important;
-    margin: 0 auto 10px auto !important;
+    width: auto !important;
+    margin: 0 0 10px 0 !important;
   }
 
-  /* Stack logo above title */
-  .navbar-brand-container {
-    flex-direction: column !important;
+  /* Title */
+  .navbar-brand {
+    font-size: clamp(1.5rem, 6vw, 2rem) !important;
+    text-align: center !important;
+    line-height: 1.2;
+    white-space: normal !important;
+    margin: 0 !important;
+  }
+
+  /* Hamburger button on its own row */
+  .navbar-toggler {
+    display: block !important;
+    margin: 15px auto 10px auto !important;
+    order: 2;
+  }
+
+  /* Menu appears below hamburger */
+  .navbar-collapse {
+    width: 100%;
+    text-align: center;
+    order: 3;
+  }
+
+  .navbar-nav {
+    width: 100%;
     justify-content: center !important;
-    align-items: center !important;
   }
 
-  /* Smaller menu */
   .navbar-nav .nav-link {
+    padding: 0.75rem !important;
     font-size: 1rem !important;
-    padding: 0.5rem !important;
     text-align: center;
   }
+}
 
-  /* Images become centred */
-  .home-side-image,
-  .home-right-image {
-    float: none !important;
-    display: block;
-    width: 90%;
-    max-width: 300px;
-    margin: 20px auto !important;
-  }
 
-  .home-side-image img,
-  .home-right-image img {
-    width: 100%;
-    height: auto;
-  }
 
-  /* Reduce heading size */
-  h1 {
-    font-size: 2rem;
-  }
 
-  h2 {
-    font-size: 1.6rem;
-  }
 
-  h3 {
-    font-size: 1.3rem;
-  }
+
+/* Main content */
+main.content {
+  position: relative;
 }
 
 
@@ -277,11 +238,11 @@ main.content {
 }
 
 .nav-footer .nav-footer-left {
-  padding-left: 280px !important;
+  padding-left: 20px !important;
 }
 
 .nav-footer .nav-footer-right {
-  padding-right: 305px !important;
+  padding-right: 20px !important;
 }
 
 /* Center content vertically */

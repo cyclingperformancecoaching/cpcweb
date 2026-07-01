@@ -7,7 +7,9 @@ website:
 
   navbar:
     logo: images/CPC New.png
+    title: "Cycling Performance Coaching"
     search: false
+
     left:
       - text: Home
         href: index.qmd
@@ -18,10 +20,10 @@ website:
       - text: Testimonials
         href: testimonials.qmd
       - text: Contact
-        href: contact.qmd      
-      
+        href: contact.qmd
+
   page-footer:
-    left: "©2023 by Cycle Performance Coaching."
+    left: "©2023 by Cycling Performance Coaching."
     center:
       - icon: instagram
         href: https://www.instagram.com/cyclingperformancecoaching_cpc/
@@ -31,10 +33,10 @@ website:
         aria-label: Facebook
       - icon: strava
         href: https://www.strava.com/clubs/1238484
+        aria-label: Strava
     right: "olistenningcoaching@gmail.com"
     background: "#355b7c"
     foreground: "#ffffff"
-    
 
 format:
   html:
