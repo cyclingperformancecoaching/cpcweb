@@ -1,21 +1,69 @@
 
 # Coaching Options
 
-## Gold - $260/month
+Every athlete has different goals, experience and commitments. Our coaching options are designed to provide the right level of support, whether you're preparing for your first event or racing at an elite level. All programs are individually tailored and adjusted based on your progress, training data and feedback.
 
-- Personalized daily training plan
-- Annual training plan to fit goals
-- Analytic feedback on training
-- Premium TrainingPeaks account
-- Regular contact via message
-- Monthly phone call
+## Coaching Options
 
-### Junior Discount
-We offer discounted services to any junior riders. Feel free to reach out and discuss!
+:::: {.columns}
 
-## Platinum $350/month
+::: {.column width="50%"}
 
-- All Gold plan features
-- Custom strength and conditioning programs
-- Unlimited contact via message
-- Fortnightly phone calls
+::: {.package-card}
+
+## 🥇 Gold
+
+### **$260/month**
+
+- ✔ Personalized daily training plan
+- ✔ Annual training plan
+- ✔ Training analysis & feedback
+- ✔ Premium TrainingPeaks
+- ✔ Regular messaging
+- ✔ Monthly phone call
+
+[Start Coaching](contact.qmd){.btn-cpc}
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.package-card}
+
+## 🏆 Platinum
+
+### **$350/month**
+
+- ✔ Everything in Gold
+- ✔ Custom strength & conditioning
+- ✔ Unlimited messaging
+- ✔ Fortnightly phone calls
+
+
+[Start Coaching](contact.qmd){.btn-cpc}
+
+:::
+
+:::
+
+::::
+
+
+::: {.junior-box}
+
+## 🚴 Junior Rider Discount
+
+We are passionate about supporting the next generation of cyclists.
+
+Discounted coaching is available for junior athletes. If you're under 19 years of age, get in touch to discuss a coaching package tailored to your goals, experience and racing calendar.
+
+[Contact Us](contact.qmd){.btn-cpc}
+
+:::
+
+#### Not sure which package is right for you?
+
+Contact us for a free consultation and we'll recommend the coaching option that best suits your goals.
+

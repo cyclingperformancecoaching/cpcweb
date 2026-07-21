@@ -1,14 +1,57 @@
-
 ## Proven Results
+
+::: {.testimonial}
+::: {.testimonial-content}
 
 ### Cameron Fraser
 
-::: {.testimonials-right-image}
-<img src="images/cam.png" alt="Cam"/>
-:::
-
 "Oli is a coach who truly understands the needs of a performance-focused athlete. His expertise in balancing intensity with recovery was instrumental in my preparation for major events, including my stage win at the Tour de Entete in Indonesia. Oli has been the driving force behind my biggest cycling achievements to date and I am grateful for him!"
 
-Stage Winner Tour de Entete 2025
+*Stage Winner – Tour de Entete 2025*
 
-### 2
+:::
+
+::: {.testimonial-image}
+<img src="images/cam.png" alt="Cameron Fraser"/>
+:::
+:::
+
+---
+
+::: {.testimonial}
+::: {.testimonial-content}
+
+### Davaajargal Altangerel
+
+
+*Mongolian U23 National Road Race Champion 2026*
+
+*3rd Mongolian U23 Time Trial 2026*
+
+:::
+
+::: {.testimonial-image}
+<img src="images/dava.png" alt="Davaajargal Altangerel"/>
+:::
+:::
+
+---
+
+::: {.testimonial}
+::: {.testimonial-content}
+
+### Callum Maciver
+
+
+
+*3rd Overall Australian U19 Road Series 2026*
+*2nd GC Balmoral Junior Tour National Series 2026*
+
+
+:::
+
+:::  {.testimonial-image}
+<img src="images/callum.png" alt="Callum"/>
+:::
+:::
+
