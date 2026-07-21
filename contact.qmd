@@ -4,10 +4,15 @@
 
 Send Oli an email to get in touch about starting your coaching journey.
 
-Email: olistenningcoaching@gmail.com
+<a href="mailto:olistenningcoaching@gmail.com" class="contact-button">
+  Contact Oli
+</a>
+
+Email: <a href="mailto:olistenningcoaching@gmail.com">olistenningcoaching@gmail.com</a>
 
 ### Sam Hill
 
 Taking on junior athletes based out of Tamworth.
 
-Email: samhillcoaching@gmail.com
+Email: <a href="mailto:samhillcoaching@gmail.com">samhillcoaching@gmail.com</a>
+

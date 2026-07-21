@@ -380,7 +380,25 @@ main.content {
 }
 
 
+/* contact button */
 
+.contact-button {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 12px 28px;
+  background-color: #d4af37;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: #b8952f;
+  color: #fff;
+  text-decoration: none;
+}
 
 
 /* footer */
